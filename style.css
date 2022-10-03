@@ -34,3 +34,8 @@ h1 {
     width: 100%;
     height: auto;
 }
+
+.down {
+    position: absolute;
+    bottom: 0;
+}
