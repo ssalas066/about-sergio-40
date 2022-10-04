@@ -1,41 +1,26 @@
-h1 {
-    color: black;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
 
-.left {
-    width: 100%;
-    margin: auto;
-    text-align: left;
-}
-
-.center {
-    width: 100%;
-    margin: auto;
+p {
     text-align: center;
+    font-size: 25px;
 }
 
-.center-list {
-    width: 50%;
-    list-style-position: inside;
+h1 {
+    text-align: center;
+    font-family: "Courier New", serif
+}
+body {
+    background-color: darkred;
+}
+
+ul {
     text-align: left;
-    display: inline-block;
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
 }
 
-.activities-list {
-    list-style-type: circle;
-}
-
-.container {
-    width: 200px;
-    height: 120px;
-}
-
-.container img {
-    width: 100%;
-    height: auto;
-}
-
-.down {
-    position: absolute;
-    bottom: 0;
-}
