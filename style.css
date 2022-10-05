@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -15,12 +19,18 @@ h1 {
     font-family: "Courier New", serif
 }
 body {
-    background-color: darkred;
+    background-image: linear-gradient(to right,red,grey);
 }
 
 ul {
-    text-align: left;
+    text-align: center;
     font-size: 25px;
-    font-family: "Courier New", Courier, monospace;
+    width: 30%;
+    margin: auto;
 }
 
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
